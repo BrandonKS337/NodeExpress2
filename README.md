@@ -89,3 +89,5 @@ step 11: include bcrypt steps here
 to change mysql password in mysql command line client type in :
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyN3wP4ssw0rd';
 followed by FLUSH PRIVILEGES
+
+THIS IS INCOMPLETE. DID NOT PUSH INTO THE BCRYPT AND HASHING SEGMENT BUT HAVE A MAJORITY OF IT FINALIZED. REFER TO RECORDING 1 HOUR 7 MINUTES IN TO CONTINUE PROG
