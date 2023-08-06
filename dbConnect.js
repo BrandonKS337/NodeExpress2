@@ -4,7 +4,7 @@
 
 const { Sequelize } = require('sequelize')
 
-const sequelize = new Sequelize(process.env_dbName,
+const sequelize = new Sequelize(process.env_dbName, //change this with new server
     process.env.DB_USER, process.env.DB_PASSWORD, {
         host: process.env.DB_HOST,
         dialect: "mysql"

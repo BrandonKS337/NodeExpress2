@@ -24,3 +24,16 @@ DB_USER and DB_PASSWORD to access the db server
 - fire up server: npm run server (established in scripts of package.json)
 
 step 3. dbConnect file
+- use strict
+- pull out sequelize form package
+- define the environment variables sequelize needs to pull from .env. establish "dialect" aka what db type. Example uses mysql
+- create connection func that will console log success/Failure. add in process.exit(1) to stop it from looping through and retrying endlessly
+- call func
+export sequelize and func to allow access in modules or elsewhere
+
+step 4. tie dbconnect into server.js
+- set variable (dbconnect in example) to require the dbConnect file
+
+step 5. Create .env
+- if you haven't made the .env with your server secrets do so now
+- PORT, db_name, db_user, db_password, db_host, db_port
