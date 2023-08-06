@@ -74,6 +74,15 @@ step 8: use the model/pull it in via controllers and routes.
     - see comments in notes for breakdown. EX line 14-18 of userRoutes.js
 
 step 9: update the routes in app (server.js)
+- test with a get in postman on the route
+    - http://localhost:8000/api/users
+    - should return status:200 and an open array
+
+step 10: expand controllers and routes to other include others
+    - create/login/put/delete/etc
+
+step 11: include bcrypt steps here
+    -stopping here for now for the time purposes. will push through later if there is free space to do so.
 
 
 (PERSONAL NOTES)
