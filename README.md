@@ -37,3 +37,8 @@ step 4. tie dbconnect into server.js
 step 5. Create .env
 - if you haven't made the .env with your server secrets do so now
 - PORT, db_name, db_user, db_password, db_host, db_port
+
+(PERSONAL NOTES)
+to change mysql password in mysql command line client type in :
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyN3wP4ssw0rd';
+followed by FLUSH PRIVILEGES
